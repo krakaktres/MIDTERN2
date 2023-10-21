@@ -1,0 +1,65 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(gg.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+form {
+    margin-bottom: 10px;
+
+}
+
+input[type="text"] {
+    width: 16%;
+    padding: 14px 20px;
+    margin: 8px 10;
+    box-sizing: border-box;
+    background-color: aqua;
+    border-radius: 100px;
+}
+
+button {
+    background-color:aqua;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 100px;
+    cursor: pointer;
+    width: 20%;
+    
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #464401;
+    padding: 8px;
+    text-align: center;
+}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #b9dbf0;
+    color: black;
+}
+
+tr:nth-child(even) {
+    background-color: #0cadf8;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
